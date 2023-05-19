@@ -222,7 +222,7 @@ img {
   row-gap: 2rem;
   text-align: center;
 }
-.about__img {
+/*.about__img {
   display: flex;
   justify-content: center;
   padding-top: 1rem;
@@ -234,6 +234,14 @@ img {
 }
 .about__img img {
   width: 100px;
+  border-radius: 50%;  
+} */
+
+.about__img {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
 }
 .about__subtitle {
   font-size: var(--h2-font-size);
@@ -308,6 +316,7 @@ img {
   cursor: pointer;
   backdrop-filter: blur(10px);
   transition: 0.3s;
+  text-align: center;
 }
 .portfolio__img:hover .portfolio__link {
   bottom: 0;
