@@ -347,6 +347,9 @@ margin-top: 0;
   margin-bottom: 80px; /* Set height to 100% to fill the container */
 
 }
+a:hover {
+  text-decoration: underline;
+}
 
 .portfolio__link-name {
   text-align: center;
